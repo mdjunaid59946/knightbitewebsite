@@ -1,0 +1,63 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: red; */
+/* } */
+.main{
+    /* background: url(./img.jpg) no-repeat center/cover; */
+    /* background-color: antiquewhite ,red; */
+    height: 100vh;
+}
+.head{
+    /* background:radial-gradient(circle, purple, pink); */
+    font-size: xx-small;
+    text-align: center;
+    height: 100vh;
+    padding-top: 4px;
+    /* height: 100vh; */
+    /* background: conic-gradient(red,black,blue,yellow,green); */
+}
+#but{
+    /* margin-top: 10px; */
+    /* margin: 50px 0px 0px 0px; */
+    /* margin-top: 20px; */
+    padding: 10px 20px 30px 20px;
+    /* padding-top: ; */
+}
+img{
+    /* margin: 20px; */
+    padding: 20px;
+
+}
+#heading{
+    border:10px black groove;
+    /* border-top: 10px solid black;
+    border-bottom: 10px red solid; */
+    /* border-inline: 10px blue solid;
+    border-block: 10px green solid; */
+}
+button{
+    border-radius: 50%;
+    border: none;
+    /* border: 20px red groove; */
+}
+.circle{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    /* border: 10px solid black; */
+}
+.box{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    /* position: relative;
+    /* bottom: 30px; */
+    top: 30px; */
+}
+

@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px
+}
+
+
+h1{
+    /* color: aqua;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline 3px red solid;
+    text-transform: lowercase;
+    text-shadow: -10px 0px 20px blueviolet;
+    /* text-shadow: 10px 20px 30px red; */;
+    letter-spacing: 10px;
+    word-spacing: 10px; */
+}
+p{
+    text-indent: 30px;
+}
+h1::first-letter{
+    font-size:80px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:oblique ;
+    font-weight: bolder;
+}
+h2{
+    font-weight:bolder;
+}
+.main{
+    background: url(https://nrzl4apc.knight-bite.com/main/res/index/app-link-background.svg) no-repeat center/cover;
+    height: 100vh;
+    /* background-image: url(https://nrzl4apc.knight-bite.com/main/res/index/app-link-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+}

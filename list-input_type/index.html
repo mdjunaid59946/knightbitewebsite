@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        *{
+            background-color: rgb(212, 214, 214);
+        }
+        
+        .pqr{
+            color: aqua;
+        }
+        .para{
+            background-color:red;
+        }
+        .bg{
+            background-color: blue;
+        }
+        
+        h1,.bg{
+            <!-- background: linear-gradient(to top,red,black); -->
+        }
+        .different,.para{
+           text-transform: uppercase;
+        }
+        
+        input[type="text"]:hover{
+            background-color: bisque;
+        }
+        input[type="email"]:focus{
+            background-color: red;
+
+        }
+        input[type="password"]:active{
+            background-color: antiquewhite;
+            font-size: xx-large;
+        }
+
+        #paragraph::placeholder{
+            color: aqua;
+            font-size: 90px;
+        }
+        li:nth-child(2){
+            color: aqua;
+        }
+        button:hover{
+            border: none;
+            background-color: white;
+            columns: black;
+            border-radius: 15%;
+            padding: 10px;
+            transform: scale(0.8);
+        }
+        input[type="tel"]{
+            color: red;
+        }
+        input[type="tel"]::placeholder{
+            color: yellow;
+        }
+        h5{
+            color: white;
+        }
+        h5::before{
+            content: "world";
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;" class="pqr"  id="abc">hello world</h1>
+    <h2 class="different">hello</h2>
+
+    <button>submit</button>
+    <h2 id="abc" >hello world</h2>
+    <p class="para bg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore similique laboriosam in vitae tempora amet, voluptatibus ipsam assumenda quis rerum, blanditiis voluptate repellendus fuga natus libero debitis ad minima? Quae!</p>
+    <input type="text" placeholder="enter fullname">
+
+    <!-- <button>submit</button> -->
+    <p id="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur rem vel incidunt distinctio similique minima corporis amet adipisci sequi, dolor ducimus? Beatae doloribus officiis dolores debitis autem veritatis quam accusantium.</p>
+    <input type="email" placeholder="enter a email">
+    <input type="password" placeholder="enter a password">
+    <a href="../Assig1.html">link</a>
+    <ul type="circle">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>django</li>
+        <li>react js</li>
+    </ul>
+    <button>movies</button>
+    <input type="tel" placeholder="enter a number">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <h5>hello</h5>
+</body>
+</html>
